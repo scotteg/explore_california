@@ -1,0 +1,12 @@
+temp*
+.DS_Store
+*.zip
+*.gz
+log/*.log # Does not include subdirectories
+log/*.log.[0-9]
+assets/photoshop/
+
+# Ignore videos...
+assets/videos/
+...except...
+!assets/videos/tour/tour_*.mp4
